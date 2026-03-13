@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: purple;
+    width: 100%;
+    height: 100vh;
+    font-family: "rubik", sans-serif;
+    padding: 20px;
+}
+
+.todo-app {
+    width: 100%;
+    max-width: 586px;
+    margin: 50px auto 26px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.heading {
+    text-align: center;
+    color: red;
+    margin: 40px 0;
+}
+.source {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eee;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    border: none;
+    outline: none;
+}
+.input-text {
+    flex: 1;
+    padding: 15px 20px;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+.btn-add {
+    border-radius: 30px;
+    padding: 15px 50px;
+    border: none;
+    outline: none;
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+.list-container {
+    list-style: none;
+}
+.list-container li {
+    padding: 5px 10px;
+    cursor: pointer;
+    position: relative;
+    margin: 5px;
+}
+
+ul li.checked {
+    text-decoration: line-through;
+    color: #555;
+}
+
+.list-container li span {
+    padding: 5px 10px;
+    right: 4px;
+    top: 8px;
+    position: absolute;
+    align-self: center;
+    justify-content: center;
+}
+
+.list-container li span:hover {
+    background-color: #ccc;
+    border-radius: 20px;
+}
